@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(228, 228, 228);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav li {
+    margin-left: auto;
+}
+
+#profile {
+    display: flex;
+    padding: 1em;
+}
+
+#profileimg img {
+    width: 100px;
+    margin: 1em;
+    border-radius: 50%;
+}
+
+#welcomemsg {
+    margin: 1em;
+}
+
+#welcomemsg>h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.card {
+    margin: auto;
+    height: 35rem;
+    width: 30rem;
+}
+
+section {
+    padding: 3rem;
+    margin-top: 3em;
+}
+
+#projsheader {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.pfolderContain {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pfolder {
+    height: 12rem;
+    width: 12rem;
+}
+
+#activitytracking {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5em;
+}
+
+#trackingfilters {
+    padding: 2em 0;
+}
+
+#chartdes {
+    max-width: 20em;
+}
+
+#activitychartContain {
+    max-width: 50%;
+    margin-left: auto;
+}
